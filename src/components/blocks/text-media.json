@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_text_medias",
+  "info": {
+    "displayName": "textMedia",
+    "icon": "fast-backward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.heading",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

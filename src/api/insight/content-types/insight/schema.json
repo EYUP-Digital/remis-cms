@@ -4,7 +4,8 @@
   "info": {
     "singularName": "insight",
     "pluralName": "insights",
-    "displayName": "Insight"
+    "displayName": "Insight",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,12 +26,12 @@
       "required": true
     },
     "previewImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "date": {
       "type": "date",
@@ -40,6 +41,16 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.hero"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "textMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.text-media"
     }
   }
 }
