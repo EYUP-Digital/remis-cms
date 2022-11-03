@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_text_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "seoSize": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "default": "h1"
+    },
+    "heading": {
+      "type": "string",
+      "required": false
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "headingColour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}
