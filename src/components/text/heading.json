@@ -22,10 +22,18 @@
       "type": "string",
       "required": false
     },
+    "headingColour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    },
     "subheading": {
       "type": "text"
     },
-    "headingColour": {
+    "subheadingColour": {
       "type": "enumeration",
       "enum": [
         "primary",
