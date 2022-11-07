@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Pages"
+    "displayName": "Pages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,20 +21,14 @@
       "targetField": "title",
       "required": true
     },
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.hero"
-    },
-    "banner": {
-      "type": "component",
-      "repeatable": true,
-      "component": "blocks.banner"
-    },
-    "textMedia": {
-      "type": "component",
-      "repeatable": true,
-      "component": "blocks.text-media"
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.text-media",
+        "blocks.hero"
+      ],
+      "required": true
     }
   }
 }
