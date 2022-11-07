@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_text_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ],
+      "required": true,
+      "default": "internal"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "button"
+      ],
+      "required": true,
+      "default": "button"
+    },
+    "colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "required": true,
+      "default": "primary"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
