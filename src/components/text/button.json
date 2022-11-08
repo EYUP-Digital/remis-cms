@@ -14,7 +14,7 @@
       "required": true,
       "default": "internal"
     },
-    "style": {
+    "btnStyle": {
       "type": "enumeration",
       "enum": [
         "link",
