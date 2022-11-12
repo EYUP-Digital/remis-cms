@@ -2,7 +2,8 @@
   "collectionName": "components_blocks_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "image"
+    "icon": "plus",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,12 +13,12 @@
       "component": "text.heading"
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
