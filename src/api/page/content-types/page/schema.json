@@ -26,7 +26,8 @@
       "components": [
         "blocks.banner",
         "blocks.text-media",
-        "blocks.hero"
+        "blocks.hero",
+        "blocks.form"
       ],
       "required": true
     }
