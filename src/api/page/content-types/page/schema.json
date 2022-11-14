@@ -27,7 +27,9 @@
         "blocks.banner",
         "blocks.text-media",
         "blocks.hero",
-        "blocks.form"
+        "blocks.form",
+        "blocks.card-slider",
+        "blocks.slider"
       ],
       "required": true
     }

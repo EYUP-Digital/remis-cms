@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sliders_card_sliders",
+  "info": {
+    "displayName": "Card Slider",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.card"
+    }
+  }
+}
