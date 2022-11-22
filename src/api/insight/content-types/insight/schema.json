@@ -39,6 +39,9 @@
       "type": "component",
       "repeatable": true,
       "component": "blocks.text-media"
+    },
+    "publishAt": {
+      "type": "datetime"
     }
   }
 }
