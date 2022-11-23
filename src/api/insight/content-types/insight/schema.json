@@ -40,8 +40,10 @@
       "repeatable": true,
       "component": "blocks.text-media"
     },
-    "publishAt": {
-      "type": "datetime"
+    "publish_at": {
+      "type": "datetime",
+      "default": "2022-11-23T09:00:09.276Z",
+      "required": true
     }
   }
 }
