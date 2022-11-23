@@ -12,8 +12,8 @@ module.exports = {
       });
 
       // update published_at of articles
-      await Promise.all(draftArticleToPublish.map(article => {
-        return strapi.entityService.update('api::article.article', article.id, {
+      await Promise.all(draftArticleToPublish.map(insight => {
+        return strapi.entityService.update('api::insight.insight', insight.id, {
           data: {
             publishedAt: new Date(),
           },
