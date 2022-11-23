@@ -32,6 +32,12 @@
         "blocks.slider"
       ],
       "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo",
+      "required": false
     }
   }
 }
